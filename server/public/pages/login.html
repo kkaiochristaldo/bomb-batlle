@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/login.css">
+
+    <script src="../scripts/login.js"></script>
+
+    <title>Login</title>
+</head>
+<body>
+    
+    <center>
+        <div id="btns-options">
+            <div onclick="CreateRoom()" >Criar Sala</div>
+            <div onclick="SearchRoom()" >Encontrar Sala</div>
+        </div>
+    </center>
+
+    <form class="invisible" id="create-room">
+        <h1 onclick="CloseForms()" >x</h1> 
+        <p><input type="text" placeholder="Apelido" ></p>
+        <p><input type="number" placeholder="Quantidade de Jogador" max="10" min="4" ></p>
+        <center>
+            <div class="btn-form">Criar</div>
+        </center>
+    </form>
+    <form class="invisible" id="search-room">
+        <h1 onclick="CloseForms()" >x</h1> 
+        <p><input type="text" placeholder="Apelido" ></p>
+        <p><input type="text" placeholder="Codigo da Sala!" ></p>
+        <center>
+            <div class="btn-form">Procurar</div>
+        </center>
+    </form>
+
+    
+
+</body>
+</html>

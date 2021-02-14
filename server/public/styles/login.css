@@ -1,0 +1,103 @@
+
+
+    #btns-options {
+        margin-top: 200px;
+    }
+
+    #btns-options div {
+        height: 100px;
+        width: 260px;
+        border-radius: 15px;
+        background-color: #7289DA;
+        
+        color: white;
+        font-weight: bold;
+        font: 16px;
+
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        opacity: 1;
+        transition: all 0.4s;
+
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    #btns-options div:hover {
+        opacity: 0.6;
+    }
+
+    #create-room {
+        width: 330px;
+        height: 400px;
+        border-radius: 10px;
+        background-color: #2C2F33;
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #search-room {
+        width: 330px;
+        height: 400px;
+        border-radius: 10px;
+        background-color: #2C2F33;
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    form p {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    form p input {
+        background-color: #2C2F33;
+        border-radius: 5px;
+        height: 40px;
+        margin-top: 2px;
+        width: 180px;
+        border-style: none;
+        border: rgb(0, 0, 0, 0.3) 2px solid;
+        outline-style: none;
+        transition: opacity 0.2s;
+        color: gray;
+        padding: 0 10px;
+        font-weight: bold;
+    }
+
+    .btn-form {
+        border-radius: 5px;
+        height: 40px;
+        margin-top: 15px;
+        width: 200px;
+        border-style: none;
+        outline-style: none;
+        background-color: #7289DA;
+
+        transition: opacity 0.2s;
+        font-weight: bold;
+        color: white;
+        font-size: 16px;
+
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .btn-form:hover {
+        opacity: 0.6;
+    }
+
+    form h1 {
+        position: absolute;
+        top:-10px;
+        right: 15px;
+    }

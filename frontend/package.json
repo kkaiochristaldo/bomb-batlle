@@ -1,0 +1,13 @@
+{
+  "name": "bomb-battle",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^11.2.3"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
+
