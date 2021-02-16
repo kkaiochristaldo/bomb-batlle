@@ -16,6 +16,14 @@ const io = require("socket.io")(server);
     app.set("view engine", "html");
     
     app.use(router);
+
+    io.on("connect", socket => {
+
+        socket.on("login", data => {
+            console.log(data)
+        })
+
+    } )
   
 
 
